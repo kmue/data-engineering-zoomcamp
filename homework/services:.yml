@@ -8,5 +8,5 @@ docker run -it \
   -p 5432:5432 \
   postgres:13 
   
-  -- execute in separate terminal window 
+  -- execute in separate terminal window to access from terminal
   pgcli -h localhost -p 5432 -u root -d 
